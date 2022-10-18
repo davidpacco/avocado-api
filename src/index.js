@@ -38,7 +38,7 @@ async function fetchData(url) {
 
     const container = document.createElement('div')
     container.append(img, title, description, price)
-    container.className = 'grid grid-cols-3 grid-rows-3 text-left border-solid border border-slate-500 shadow-md rounded-2xl items-center overflow-hidden hover:bg-gray-100 cursor-pointer'
+    container.className = 'grid grid-cols-3 grid-rows-3 text-left border-solid border border-slate-500 shadow-md rounded-2xl items-center overflow-hidden'
 
     allItems.push(container)
   });
